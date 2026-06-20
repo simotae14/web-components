@@ -14,12 +14,12 @@
 </head>
 <body>
   <template id="tooltip-template">
-    <span> (?)</span>
+    <slot>Some default</slot><span> (?)</span>
   </template>
   <p>
     <tae-tooltip text="Web components is a set of standards.">Web components</tae-tooltip> are awesome!
   </p>
-  <tae-tooltip>Here we go!</tae-tooltip>
+  <tae-tooltip></tae-tooltip>
   
 </body>
 </html>
