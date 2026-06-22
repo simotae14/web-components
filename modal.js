@@ -1,13 +1,11 @@
 class Modal extends HTMLElement {
   constructor() {
     super();
-    this.attachShadow({
-      mode: 'open'
-    });
+    this.attachShadow({ mode: 'open' });
     this.isOpen = false;
     this.shadowRoot.innerHTML = `
-      <style>
-        #backdrop {
+    <style>
+      #backdrop {
           position: fixed;
           top: 0;
           left: 0;
@@ -17,20 +15,20 @@ class Modal extends HTMLElement {
           z-index: 10;
           opacity: 0;
           pointer-events: none;
-        }
+      }
 
-        :host([opened]) #backdrop,
-        :host([opened]) #modal {
+      :host([opened]) #backdrop,
+      :host([opened]) #modal {
           opacity: 1;
           pointer-events: all;
-        }
-        
-        #modal {
-          z-index: 100;
+      }
+
+      #modal {
           position: fixed;
           top: 15vh;
           left: 25%;
           width: 50%;
+          z-index: 100;
           background: white;
           border-radius: 3px;
           box-shadow: 0 2px 8px rgba(0,0,0,0.26);
@@ -39,60 +37,56 @@ class Modal extends HTMLElement {
           justify-content: space-between;
           opacity: 0;
           pointer-events: none;
-        }
+      }
 
-        header {
+      header {
           padding: 1rem;
-        }
+      }
 
-        header h1 {
+      ::slotted(h1) {
           font-size: 1.25rem;
-        }
+      }
 
-        #main {
+      #main {
           padding: 1rem;
-        }
+      }
 
-        #actions {
+      #actions {
           border-top: 1px solid #ccc;
           padding: 1rem;
           display: flex;
           justify-content: flex-end;
-        }
+      }
 
-        #actions button {
+      #actions button {
           margin: 0 0.25rem;
-        }
-      </style>
-      <div id="backdrop"></div>
-      <div id="modal">
+      }
+    </style>
+    <div id="backdrop"></div>
+    <div id="modal">
         <header>
-          <h1>Please Confirm</h1>
+            <slot name="title">Please Confirm Payment</slot>
         </header>
         <section id="main">
-          <slot>
-            <p>With your confirmation you agree to pay the full amount!</p>
-          </slot>
+            <slot></slot>
         </section>
         <section id="actions">
-          <button>Cancel</button>
-          <button>Okay</button>
+            <button>Cancel</button>
+            <button>Okay</button>
         </section>
-      </div>
+    </div>
     `;
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
-    if (name === 'opened') {
-      if (this.hasAttribute('opened')) {
-        this.isOpen = true;
-        // this.shadowRoot.querySelector('#backdrop').style.opacity = 1;
-        // this.shadowRoot.querySelector('#backdrop').style.pointerEvents = 'all';
-        // this.shadowRoot.querySelector('#modal').style.opacity = 1;
-        // this.shadowRoot.querySelector('#modal').style.pointerEvents = 'all';
-      } else {
-        this.isOpen = false;
-      }
+    if (this.hasAttribute('opened')) {
+      this.isOpen = true;
+      // this.shadowRoot.querySelector('#backdrop').style.opacity = 1;
+      // this.shadowRoot.querySelector('#backdrop').style.pointerEvents = 'all';
+      // this.shadowRoot.querySelector('#modal').style.opacity = 1;
+      // this.shadowRoot.querySelector('#modal').style.pointerEvents = 'all';
+    } else {
+      this.isOpen = false;
     }
   }
 
@@ -104,7 +98,6 @@ class Modal extends HTMLElement {
     this.setAttribute('opened', '');
     this.isOpen = true;
   }
-
 }
 
 customElements.define('uc-modal', Modal);

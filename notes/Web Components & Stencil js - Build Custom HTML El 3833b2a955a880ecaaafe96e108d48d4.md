@@ -232,4 +232,8 @@ commit [**029 Opening the Modal via CSS](https://github.com/simotae14/web-compon
 
 ** Public Methods & Properties
 
-commit [**030 Public Methods & Properties]()
+commit [**030 Public Methods & Properties](https://github.com/simotae14/web-components/commit/2006610773d136d032917151adcc178773876da4)
+
+** Understanding Named Slots
+
+commit [**031 Understanding Named Slots]()
