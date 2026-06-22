@@ -182,4 +182,8 @@ commit [**020 Observing attributes Changes**](https://github.com/simotae14/web-c
 
 **Adjusting the Component Behaviour Upon Attribute Changes
 
-commit [**021 Adjusting the Component Behaviour Upon Attribute Changes**](https://github.com/simotae14/web-components/commit/f478f79fac985bb562ea1af53830148a480ff0fa)
+commit [**021 Adjusting the Component Behaviour Upon Attribute Changes**](https://github.com/simotae14/web-components/commit/06cb3067eae246798c98d4a599b20597f252ba70)
+
+**Using disconnectedCallback
+
+commit [**022 Using disconnectedCallback**]()
