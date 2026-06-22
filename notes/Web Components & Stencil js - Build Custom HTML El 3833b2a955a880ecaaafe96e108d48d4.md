@@ -178,4 +178,8 @@ commit [**019 Cleaning Up our Overall Styling**](https://github.com/simotae14/we
 
 attributeChangeCallback
 
-commit [**020 Observing attributes Changes**](https://github.com/simotae14/web-components/commit/835765cae90644d20c57d9122a43e69947dbc47e)
+commit [**020 Observing attributes Changes**](https://github.com/simotae14/web-components/commit/f478f79fac985bb562ea1af53830148a480ff0fa)
+
+**Adjusting the Component Behaviour Upon Attribute Changes
+
+commit [**021 Adjusting the Component Behaviour Upon Attribute Changes**](https://github.com/simotae14/web-components/commit/f478f79fac985bb562ea1af53830148a480ff0fa)
