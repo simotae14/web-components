@@ -220,4 +220,8 @@ commit [**026 Adding the Modal Container](https://github.com/simotae14/web-compo
 
 ** Styling the Modal Elements
 
-commit [**027 Styling the Modal Elements]()
+commit [**027 Styling the Modal Elements](https://github.com/simotae14/web-components/commit/d3944fb74d87441acaf5f7af55b3c6db5a442a0b)
+
+** Adding Some General App Logic
+
+commit [**028 Adding Some General App Logic]()
