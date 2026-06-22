@@ -169,3 +169,7 @@ commit [**016 Styling with the Host Content in Mind**](https://github.com/simota
 **Smart Dynamic Styling with CSS Variables**
 
 commit [**017 Smart Dynamic Styling with CSS Variables**](https://github.com/simotae14/web-components/commit/d7043c4ff8988c8199403ce9aa3e748cd6a0e8de)
+
+**Cleaning Up our Overall Styling
+
+commit [**019 Cleaning Up our Overall Styling**]()
