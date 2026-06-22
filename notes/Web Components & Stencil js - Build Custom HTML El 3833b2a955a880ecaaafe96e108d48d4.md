@@ -212,4 +212,8 @@ Google Article on Shadow DOM:
 
 ** Creating the Basics Modal Component
 
-commit [**025 Creating the Basics Modal Component]()
+commit [**025 Creating the Basics Modal Component](https://github.com/simotae14/web-components/commit/7e80452d9b2d6c33d7351d5bb5912536dd7a18ab)
+
+** Adding the Modal Container
+
+commit [**026 Adding the Modal Container]()
