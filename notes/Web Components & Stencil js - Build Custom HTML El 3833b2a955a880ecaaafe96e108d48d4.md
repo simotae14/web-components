@@ -194,4 +194,22 @@ commit [**023 Adding a render method**](https://github.com/simotae14/web-compone
 
 **024 move the position relative to the :host css rule
 
-commit [**024 move the position relative to the :host css rule]()
+commit [**024 move the position relative to the :host css rule](https://github.com/simotae14/web-components/commit/74caad1853dec531ad8b30a8a0a815a85afaf8d7)
+
+Attached you find the module code, below are useful further resources:
+
+More about Templates & Slots: 
+[https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots)
+
+Google Article on Custom Elements: 
+[https://developers.google.com/web/fundamentals/web-components/customelements](https://developers.google.com/web/fundamentals/web-components/customelements)
+
+Google Article on Shadow DOM: 
+[https://developers.google.com/web/fundamentals/web-components/shadowdom](https://developers.google.com/web/fundamentals/web-components/shadowdom)
+
+*Building more complex components
+** Unlocking the missing pieces
+
+** Creating the Basics Modal Component
+
+commit [**025 Creating the Basics Modal Component]()
