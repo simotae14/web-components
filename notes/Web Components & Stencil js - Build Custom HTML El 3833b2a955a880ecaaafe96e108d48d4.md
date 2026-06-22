@@ -156,7 +156,7 @@ dentro al component possiamo usare il selettore `:host`
 
 commit  [**014 Styling the Host Component**](https://github.com/simotae14/web-components/commit/4749da89fcb07d25f20f5781de8029fec6ee7770)
 
-**Conditional Host Styling**
+**Conditional Host Styling**\
 
 commit [**015 Conditional Host Styling**](https://github.com/simotae14/web-components/commit/33b7c7810fd50bb70ecc15e5bf6b32fa435e123b)
 
@@ -172,4 +172,10 @@ commit [**017 Smart Dynamic Styling with CSS Variables**](https://github.com/sim
 
 **Cleaning Up our Overall Styling
 
-commit [**019 Cleaning Up our Overall Styling**]()
+commit [**019 Cleaning Up our Overall Styling**](https://github.com/simotae14/web-components/commit/835765cae90644d20c57d9122a43e69947dbc47e)
+
+**Observing attributes Changes
+
+attributeChangeCallback
+
+commit [**020 Observing attributes Changes**](https://github.com/simotae14/web-components/commit/835765cae90644d20c57d9122a43e69947dbc47e)
