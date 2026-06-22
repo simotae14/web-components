@@ -224,4 +224,8 @@ commit [**027 Styling the Modal Elements](https://github.com/simotae14/web-compo
 
 ** Adding Some General App Logic
 
-commit [**028 Adding Some General App Logic]()
+commit [**028 Adding Some General App Logic](https://github.com/simotae14/web-components/commit/03ef1f818ec635de67b573cd5fbec988b19f6512)
+
+** Opening the Modal via CSS
+
+commit [**029 Opening the Modal via CSS]()
