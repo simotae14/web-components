@@ -190,4 +190,8 @@ commit [**022 Using disconnectedCallback**](https://github.com/simotae14/web-com
 
 **Adding a render method
 
-commit [**023 Adding a render method**]()
+commit [**023 Adding a render method**](https://github.com/simotae14/web-components/commit/33d8b13c09904669dc0b173641bc07cd47723ba9)
+
+**024 move the position relative to the :host css rule
+
+commit [**024 move the position relative to the :host css rule]()
