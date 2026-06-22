@@ -4,6 +4,7 @@ class Modal extends HTMLElement {
     this.attachShadow({
       mode: 'open'
     });
+    this.isOpen = false;
     this.shadowRoot.innerHTML = `
       <style>
         #backdrop {
@@ -81,14 +82,16 @@ class Modal extends HTMLElement {
     `;
   }
 
-  /*
   attributeChangedCallback(name, oldValue, newValue) {
     if (name === 'opened') {
       if (this.hasAttribute('opened')) {
-        this.shadowRoot.querySelector('#backdrop').style.opacity = 1;
-        this.shadowRoot.querySelector('#backdrop').style.pointerEvents = 'all';
-        this.shadowRoot.querySelector('#modal').style.opacity = 1;
-        this.shadowRoot.querySelector('#modal').style.pointerEvents = 'all';
+        this.isOpen = true;
+        // this.shadowRoot.querySelector('#backdrop').style.opacity = 1;
+        // this.shadowRoot.querySelector('#backdrop').style.pointerEvents = 'all';
+        // this.shadowRoot.querySelector('#modal').style.opacity = 1;
+        // this.shadowRoot.querySelector('#modal').style.pointerEvents = 'all';
+      } else {
+        this.isOpen = false;
       }
     }
   }
@@ -96,9 +99,11 @@ class Modal extends HTMLElement {
   static get observedAttributes() {
     return ['opened'];
   }
-  */
 
-
+  open() {
+    this.setAttribute('opened', '');
+    this.isOpen = true;
+  }
 
 }
 

@@ -228,4 +228,8 @@ commit [**028 Adding Some General App Logic](https://github.com/simotae14/web-co
 
 ** Opening the Modal via CSS
 
-commit [**029 Opening the Modal via CSS]()
+commit [**029 Opening the Modal via CSS](https://github.com/simotae14/web-components/commit/43da7dfab025277825595af3907ecacadc6eb717)
+
+** Public Methods & Properties
+
+commit [**030 Public Methods & Properties]()
