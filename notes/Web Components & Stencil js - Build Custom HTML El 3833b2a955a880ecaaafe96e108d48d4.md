@@ -186,4 +186,8 @@ commit [**021 Adjusting the Component Behaviour Upon Attribute Changes**](https:
 
 **Using disconnectedCallback
 
-commit [**022 Using disconnectedCallback**]()
+commit [**022 Using disconnectedCallback**](https://github.com/simotae14/web-components/commit/d2596c4d0d04179879fa1de15bb29203c8f9257a)
+
+**Adding a render method
+
+commit [**023 Adding a render method**]()
