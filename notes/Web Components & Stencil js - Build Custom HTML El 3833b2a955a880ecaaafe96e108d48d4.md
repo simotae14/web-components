@@ -216,4 +216,8 @@ commit [**025 Creating the Basics Modal Component](https://github.com/simotae14/
 
 ** Adding the Modal Container
 
-commit [**026 Adding the Modal Container]()
+commit [**026 Adding the Modal Container](https://github.com/simotae14/web-components/commit/149d73150fc6b55d76751b7c41c83dab7238b854)
+
+** Styling the Modal Elements
+
+commit [**027 Styling the Modal Elements]()
