@@ -332,4 +332,8 @@ commit [**039 Creating a New Stencil Web Component](https://github.com/simotae14
 
 ** Styling Stencil Component
 
-commit [**039 Styling Stencil Component]()
+commit [**039 Styling Stencil Component](https://github.com/simotae14/web-components/commit/e09476b9403b85f6ddda7f2e8c453d92dcd2ee82)
+
+** Using Props
+
+commit [**040 Using Props]()
