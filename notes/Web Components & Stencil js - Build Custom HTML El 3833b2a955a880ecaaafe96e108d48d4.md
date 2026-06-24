@@ -358,4 +358,8 @@ That's it!
 
 ** Configuring Props with reflect
 
-commit [**041 Configuring Props with reflect]()
+commit [**041 Configuring Props with reflect](https://github.com/simotae14/web-components/commit/d06beb468e72713ae639995663259fd2ba84911d)
+
+** Using Slots & Styling
+
+commit [**042 Using Slots & Styling]()
