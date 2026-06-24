@@ -11,8 +11,10 @@ export class SideDrawer {
   })
   title!: string; // required
 
-  // @Prop()
-  // open?: boolean;
+  @Prop({
+    reflect: true
+  })
+  open?: boolean;
 
   render() {
     return (

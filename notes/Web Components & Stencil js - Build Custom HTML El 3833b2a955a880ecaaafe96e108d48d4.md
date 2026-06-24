@@ -370,4 +370,8 @@ commit [**043 Rendering Conditional Content](https://github.com/simotae14/web-co
 
 ** Using Attributes for Styling only
 
-commit [**044 Using Attributes for Styling only]()
+commit [**044 Using Attributes for Styling only](https://github.com/simotae14/web-components/commit/16a1122cab2334210e28c9943cf3df449d4b938f)
+
+** Using Props in Combination with Attributes
+
+commit [**045 Using Props in Combination with Attributes]()
