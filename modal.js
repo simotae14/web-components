@@ -126,12 +126,17 @@ class Modal extends HTMLElement {
 
   _cancel(event) {
     this.hide();
-    const cancelEvent = new Event('cancel');
+    const cancelEvent = new Event('cancel', {
+      bubbles: true,
+      composed: true
+    });
     event.target.dispatchEvent(cancelEvent);
   }
 
-  _confirm(event) {
+  _confirm() {
     this.hide();
+    const confirmEvent = new Event('confirm');
+    this.dispatchEvent(confirmEvent); // it is a even simplier way of bubblying up the event
   }
 }
 

@@ -246,4 +246,10 @@ commit [**033 Closing the Modal with Modal Buttons](https://github.com/simotae14
 
 ** Dispatching Custom Events
 
-commit [**034 Dispatching Custom Events]()
+commit [**034 Dispatching Custom Events](https://github.com/simotae14/web-components/commit/68d417a06a6f17b2634584d04a139aef241cc7a4)
+
+** Configuring Custom Events
+
+Bubble up the cancel and confirm events
+
+commit [**035 Configuring Custom Events]()
