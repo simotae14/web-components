@@ -336,4 +336,26 @@ commit [**039 Styling Stencil Component](https://github.com/simotae14/web-compon
 
 ** Using Props
 
-commit [**040 Using Props]()
+commit [**040 Using Props](https://github.com/simotae14/web-components/commit/655d1affa0ef02b33f39270dc0a7575b8f70e546)
+
+__MUST READ__
+
+In the next lecture, we'll also write some code that reflects prop values to their respective attributes. The explanation given there still is correct but the syntax changed:
+
+_Instead of_
+
+```jsx
+@Prop({ reflectToAttr: true }) ...
+```
+
+_use_
+
+```jsx
+@Prop({ reflect: true }) ...
+```
+
+That's it!
+
+** Configuring Props with reflect
+
+commit [**041 Configuring Props with reflect]()
