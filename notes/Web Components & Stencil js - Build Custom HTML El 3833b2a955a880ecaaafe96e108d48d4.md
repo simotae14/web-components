@@ -318,4 +318,14 @@ to run the development server which is a web server. The build process happens i
 
 It opens a new window in the browser at localhost:3333
 
-commit [**038 Using the Development Server and remove generated component]()
+commit [**038 Using the Development Server and remove generated component](https://github.com/simotae14/web-components/commit/7a497e05951ead6272d6dee2d6a0cc96c26db70c)
+
+## Creating a New Stencil Web Component
+
+Important: When creating new Stencil component files (which we'll do throughout this course), there is one extra import you should add at the top of your file:
+
+```jsx
+import { h } from '@stencil/core';
+```
+
+commit [**039 Creating a New Stencil Web Component]()
