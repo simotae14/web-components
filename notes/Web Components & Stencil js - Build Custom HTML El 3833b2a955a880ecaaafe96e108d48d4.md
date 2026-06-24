@@ -252,4 +252,12 @@ commit [**034 Dispatching Custom Events](https://github.com/simotae14/web-compon
 
 Bubble up the cancel and confirm events
 
-commit [**035 Configuring Custom Events]()
+commit [**035 Configuring Custom Events](https://github.com/simotae14/web-components/commit/7f125bedc69dada623c0445dc9ff97b36f860638)
+
+** Adding Enhancements & Modal Animations
+
+Add the hide event to the click outside the modal on the backdrop
+
+[More on Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using)
+
+commit [**036 Adding Enhancements & Modal Animations]()
