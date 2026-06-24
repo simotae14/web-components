@@ -276,4 +276,46 @@ Choose component, to create a project for building web components.
 
 ** Creating a Stencil Project
 
-commit [**037 Creating a Stencil Project]()
+commit [**037 Creating a Stencil Project](https://github.com/simotae14/web-components/commit/d8a96136a945f55c4736f5db8ab4ad9089a1437f)
+
+** What is Stencil
+
+It is A Compiler for Native Web Components
+
+In the End it ships => Native JavaScript Web Components
+
+The Stencil components are written in JS and TS and the Stencil Compiler compile them into Native JavaScript Web Components
+
+Stencil.js spits out native, vanilla-JS web components.
+
+BUT: These components have (vanilla) JavaScript added to them that enhances the web component experience by:
+
+ - Loading component code lazily (i.e. source code gets only pulled into the page if it's really needed => This reduces the overall bundle size)
+
+ - Loading required polyfills automatically for browsers that need it
+
+ - Re-rendering the web (component) DOM efficiently (i.e. the DOM gets updated with as minimal impact as possible, to reduce the amount of work JS and the browser have to do)
+
+** Diving Into a First Stencil Component
+
+To turn a Stencil component into a Web Component it is enough to launch
+
+```jsx
+npm run build
+```
+
+# Stencil Diving Into the Basics
+
+## Using the Development Server
+
+To run the project just run
+
+```jsx
+npm start
+```
+
+to run the development server which is a web server. The build process happens in Browser's memory
+
+It opens a new window in the browser at localhost:3333
+
+commit [**038 Using the Development Server and remove generated component]()
