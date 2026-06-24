@@ -374,4 +374,8 @@ commit [**044 Using Attributes for Styling only](https://github.com/simotae14/we
 
 ** Using Props in Combination with Attributes
 
-commit [**045 Using Props in Combination with Attributes]()
+commit [**045 Using Props in Combination with Attributes](https://github.com/simotae14/web-components/commit/8325f99686c69a6444170bedcf376c43295fb6b7)
+
+** Understanding Mutable Props
+
+commit [**046 Understanding Mutable Props]()

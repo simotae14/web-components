@@ -12,14 +12,22 @@ export class SideDrawer {
   title!: string; // required
 
   @Prop({
-    reflect: true
+    reflect: true,
+    mutable: true
   })
   open?: boolean;
+
+  onCloseDrawer() {
+    this.open = false;
+  }
 
   render() {
     return (
       <aside>
-        <header><h1>{this.title}</h1></header>
+        <header>
+          <h1>{this.title}</h1>   
+          <button onClick={this.onCloseDrawer.bind(this)}>X</button>
+        </header>
         <main>
           <slot />
         </main>
