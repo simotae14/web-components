@@ -260,4 +260,20 @@ Add the hide event to the click outside the modal on the backdrop
 
 [More on Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using)
 
-commit [**036 Adding Enhancements & Modal Animations]()
+commit [**036 Adding Enhancements & Modal Animations](https://github.com/simotae14/web-components/commit/1f104ccc51de11cd9f8cd2e8842e4c3435a4b53f)
+
+# Stencil (Intro)
+
+[Browser support](https://www.webcomponents.org/)
+
+To create a new stencil project just run
+
+```jsx
+npm init stencil
+```
+
+Choose component, to create a project for building web components.
+
+** Creating a Stencil Project
+
+commit [**037 Creating a Stencil Project]()
