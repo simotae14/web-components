@@ -382,4 +382,8 @@ commit [**046 Understanding Mutable Props](https://github.com/simotae14/web-comp
 
 ** Preparing Tabs
 
-commit [**047 Preparing Tabs]()
+commit [**047 Preparing Tabs](https://github.com/simotae14/web-components/commit/5c659bf95014b5be081be7db000b31e5406858e8)
+
+** Adding More Event Listeners to track the active tab
+ 
+commit [**048 Adding More Event Listeners to track the active tab]()
