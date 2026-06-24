@@ -242,4 +242,8 @@ commit [**032 slotchange & Getting Access to Slot Content](https://github.com/si
 
 ** Closing the Modal with Modal Buttons
 
-commit [**033 Closing the Modal with Modal Buttons]()
+commit [**033 Closing the Modal with Modal Buttons](https://github.com/simotae14/web-components/commit/5fb5703b58f6deadc9b0540f7e3fadd22468294a)
+
+** Dispatching Custom Events
+
+commit [**034 Dispatching Custom Events]()
