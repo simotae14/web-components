@@ -238,4 +238,8 @@ commit [**030 Public Methods & Properties](https://github.com/simotae14/web-comp
 
 Using the slotchange event as event listener in a slot element, triggered everytime the content inside the slot changes
 
-commit [**032 slotchange & Getting Access to Slot Content]()
+commit [**032 slotchange & Getting Access to Slot Content](https://github.com/simotae14/web-components/commit/e8abf23a59fb4165c3b96d9bb93bf1e401a2e1c5)
+
+** Closing the Modal with Modal Buttons
+
+commit [**033 Closing the Modal with Modal Buttons]()
