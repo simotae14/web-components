@@ -392,4 +392,8 @@ commit [**048 Adding More Event Listeners to track the active tab](https://githu
 
 Needed to react to changes from inside the component
  
-commit [**049 Using State]()
+commit [**049 Using State](https://github.com/simotae14/web-components/commit/fe1d9605c2de1086214b52e62bfc4029461f64b5)
+
+** Adding Methods to Components to call from outside the Component
+
+commit [**050 Adding Methods to Components to call from outside the Component]()

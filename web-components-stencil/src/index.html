@@ -41,9 +41,10 @@
       const sideDrawer = document.querySelector('uc-side-drawer');
 
       sideDrawerButton.addEventListener('click', () => {
-        if (!sideDrawer.open) {
+        if (!sideDrawer.opened) {
           console.log('Opening side drawer...');
-          sideDrawer.open = true;
+          // sideDrawer.opened = true;
+          sideDrawer.open();
         }
       });
       setTimeout(() => {
