@@ -396,4 +396,8 @@ commit [**049 Using State](https://github.com/simotae14/web-components/commit/fe
 
 ** Adding Methods to Components to call from outside the Component
 
-commit [**050 Adding Methods to Components to call from outside the Component]()
+commit [**050 Adding Methods to Components to call from outside the Component](https://github.com/simotae14/web-components/commit/eca2735a5f22c450eb52cb1677a029c0733685e3)
+
+** Adding a Backdrop
+
+commit [**051 Adding a Backdrop]()
