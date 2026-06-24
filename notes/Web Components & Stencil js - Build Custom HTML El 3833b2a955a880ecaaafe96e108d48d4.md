@@ -328,4 +328,8 @@ Important: When creating new Stencil component files (which we'll do throughout 
 import { h } from '@stencil/core';
 ```
 
-commit [**039 Creating a New Stencil Web Component]()
+commit [**039 Creating a New Stencil Web Component](https://github.com/simotae14/web-components/commit/fb3559a58375631a18608b2ff5b547d6123939ab)
+
+** Styling Stencil Component
+
+commit [**039 Styling Stencil Component]()
