@@ -28,10 +28,14 @@ export class SideDrawer {
           <h1>{this.title}</h1>   
           <button onClick={this.onCloseDrawer.bind(this)}>X</button>
         </header>
+        <section id="tabs">
+          <button class="active">Navigation</button>
+          <button>Contact</button>
+        </section>
         <main>
           <slot />
         </main>
       </aside>
     );
   }
-}  
+}   

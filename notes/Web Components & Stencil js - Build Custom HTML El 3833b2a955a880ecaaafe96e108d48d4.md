@@ -378,4 +378,8 @@ commit [**045 Using Props in Combination with Attributes](https://github.com/sim
 
 ** Understanding Mutable Props
 
-commit [**046 Understanding Mutable Props]()
+commit [**046 Understanding Mutable Props](https://github.com/simotae14/web-components/commit/9783e754bb0d2b5baa73bfad89ff66f1ca756c0e)
+
+** Preparing Tabs
+
+commit [**047 Preparing Tabs]()
