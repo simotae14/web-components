@@ -234,6 +234,8 @@ commit [**029 Opening the Modal via CSS](https://github.com/simotae14/web-compon
 
 commit [**030 Public Methods & Properties](https://github.com/simotae14/web-components/commit/2006610773d136d032917151adcc178773876da4)
 
-** Understanding Named Slots
+** slotchange & Getting Access to Slot Content
 
-commit [**031 Understanding Named Slots]()
+Using the slotchange event as event listener in a slot element, triggered everytime the content inside the slot changes
+
+commit [**032 slotchange & Getting Access to Slot Content]()
