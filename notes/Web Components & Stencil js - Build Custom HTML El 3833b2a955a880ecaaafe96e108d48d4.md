@@ -366,4 +366,8 @@ commit [**042 Using Slots & Styling](https://github.com/simotae14/web-components
 
 ** Rendering Conditional Content
 
-commit [**043 Rendering Conditional Content]()
+commit [**043 Rendering Conditional Content](https://github.com/simotae14/web-components/commit/908e1946551d78ccacd0a154e18076d1a392df07)
+
+** Using Attributes for Styling only
+
+commit [**044 Using Attributes for Styling only]()
