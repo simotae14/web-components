@@ -362,4 +362,8 @@ commit [**041 Configuring Props with reflect](https://github.com/simotae14/web-c
 
 ** Using Slots & Styling
 
-commit [**042 Using Slots & Styling]()
+commit [**042 Using Slots & Styling](https://github.com/simotae14/web-components/commit/2f121a66fa6902b60d392a647b1f7bfb651cc30e)
+
+** Rendering Conditional Content
+
+commit [**043 Rendering Conditional Content]()
