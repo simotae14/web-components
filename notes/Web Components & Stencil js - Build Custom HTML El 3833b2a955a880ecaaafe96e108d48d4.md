@@ -386,4 +386,10 @@ commit [**047 Preparing Tabs](https://github.com/simotae14/web-components/commit
 
 ** Adding More Event Listeners to track the active tab
  
-commit [**048 Adding More Event Listeners to track the active tab]()
+commit [**048 Adding More Event Listeners to track the active tab](https://github.com/simotae14/web-components/commit/e24bed58c76945f802f611900b0a0ddaeafa4527)
+
+** Using State
+
+Needed to react to changes from inside the component
+ 
+commit [**049 Using State]()
