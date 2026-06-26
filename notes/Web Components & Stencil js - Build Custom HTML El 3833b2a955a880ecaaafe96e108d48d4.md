@@ -418,4 +418,8 @@ commit [**053 Component & API Preparation](https://github.com/simotae14/web-comp
 
 ** Submitting Forms
 
-commit [**054 Submitting Forms]()
+commit [**054 Submitting Forms](https://github.com/simotae14/web-components/commit/1517493af464aa66a5f0c8af6cf5324c3689244e)
+
+** Styling the Component
+
+commit [**055 Styling the Component]()
