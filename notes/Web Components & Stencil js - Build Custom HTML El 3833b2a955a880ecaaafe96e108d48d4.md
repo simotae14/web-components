@@ -433,7 +433,7 @@ commit [**056 HTTP Requests in Components](https://github.com/simotae14/web-comp
 
 ** Using the API Key
 
-commit [**057 Using the API Key]()
+commit [**057 Using the API Key](https://github.com/simotae14/web-components/commit/708a2ada50bfb1593225518aae41a10f57410a8b)
 
 ** Accessing the Host Element
 
