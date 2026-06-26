@@ -429,4 +429,12 @@ commit [**055 Styling the Component](https://github.com/simotae14/web-components
 This one is the [Demo API request](https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=MSFT&apikey=demo)
 It doesn't need the API key since it always return the Microsoft Stock Price
 
-commit [**056 HTTP Requests in Components]()
+commit [**056 HTTP Requests in Components](https://github.com/simotae14/web-components/commit/df214fae93f1551ad7d2201f4f11bb85e61184fd)
+
+** Using the API Key
+
+commit [**057 Using the API Key]()
+
+** Accessing the Host Element
+
+commit [**058 Accessing the Host Element]()
