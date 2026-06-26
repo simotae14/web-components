@@ -400,4 +400,12 @@ commit [**050 Adding Methods to Components to call from outside the Component](h
 
 ** Adding a Backdrop
 
-commit [**051 Adding a Backdrop]()
+commit [**051 Adding a Backdrop](https://github.com/simotae14/web-components/commit/599c4cbfea371a32fa17d050a7d8a49e73b1fe8b)
+
+helpful further resources:
+
+Official Stencil.js Docs: [https://stenciljs.com/docs/introduction](https://stenciljs.com/docs/introduction)
+
+** Creating a new Component Stock Price
+
+commit [**052 Creating a new Component Stock Price](b)
