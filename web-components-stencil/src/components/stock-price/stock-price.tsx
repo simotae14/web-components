@@ -5,4 +5,16 @@ import { Component, h } from '@stencil/core';
   styleUrl: './stock-price.css',
   shadow: true
 })
-export class StockPrice {}   
+export class StockPrice {
+  render() {
+    return [
+      <form>
+        <input id="stock-symbol" />
+        <button type="submit">Fetch</button>
+      </form>,
+      <div>
+        <p>Price: {0}</p>
+      </div>
+    ]
+  }
+}   

@@ -408,4 +408,10 @@ Official Stencil.js Docs: [https://stenciljs.com/docs/introduction](https://sten
 
 ** Creating a new Component Stock Price
 
-commit [**052 Creating a new Component Stock Price](b)
+commit [**052 Creating a new Component Stock Price](https://github.com/simotae14/web-components/commit/a47523a8055ec63912979b4b41502da85d0f8e2f)
+
+** Component & API Preparation
+
+We are gonna use this API [Alpha Vantage](https://www.alphavantage.co/documentation/)
+
+commit [**053 Component & API Preparation]()
