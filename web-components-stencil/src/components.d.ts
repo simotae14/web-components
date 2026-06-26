@@ -11,6 +11,8 @@ export namespace Components {
         "opened"?: boolean;
         "title": string;
     }
+    interface UcStockPrice {
+    }
 }
 declare global {
     interface HTMLUcSideDrawerElement extends Components.UcSideDrawer, HTMLStencilElement {
@@ -19,8 +21,15 @@ declare global {
         prototype: HTMLUcSideDrawerElement;
         new (): HTMLUcSideDrawerElement;
     };
+    interface HTMLUcStockPriceElement extends Components.UcStockPrice, HTMLStencilElement {
+    }
+    var HTMLUcStockPriceElement: {
+        prototype: HTMLUcStockPriceElement;
+        new (): HTMLUcStockPriceElement;
+    };
     interface HTMLElementTagNameMap {
         "uc-side-drawer": HTMLUcSideDrawerElement;
+        "uc-stock-price": HTMLUcStockPriceElement;
     }
 }
 declare namespace LocalJSX {
@@ -30,6 +39,8 @@ declare namespace LocalJSX {
         "opened"?: boolean;
         "title": string;
     }
+    interface UcStockPrice {
+    }
 
     interface UcSideDrawerAttributes {
         "title": string;
@@ -38,6 +49,7 @@ declare namespace LocalJSX {
 
     interface IntrinsicElements {
         "uc-side-drawer": Omit<UcSideDrawer, keyof UcSideDrawerAttributes> & { [K in keyof UcSideDrawer & keyof UcSideDrawerAttributes]?: UcSideDrawer[K] } & { [K in keyof UcSideDrawer & keyof UcSideDrawerAttributes as `attr:${K}`]?: UcSideDrawerAttributes[K] } & { [K in keyof UcSideDrawer & keyof UcSideDrawerAttributes as `prop:${K}`]?: UcSideDrawer[K] } & OneOf<"title", UcSideDrawer["title"], UcSideDrawerAttributes["title"]>;
+        "uc-stock-price": UcStockPrice;
     }
 }
 export { LocalJSX as JSX };
@@ -45,6 +57,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "uc-side-drawer": LocalJSX.IntrinsicElements["uc-side-drawer"] & JSXBase.HTMLAttributes<HTMLUcSideDrawerElement>;
+            "uc-stock-price": LocalJSX.IntrinsicElements["uc-stock-price"] & JSXBase.HTMLAttributes<HTMLUcStockPriceElement>;
         }
     }
 }

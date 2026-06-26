@@ -414,4 +414,8 @@ commit [**052 Creating a new Component Stock Price](https://github.com/simotae14
 
 We are gonna use this API [Alpha Vantage](https://www.alphavantage.co/documentation/)
 
-commit [**053 Component & API Preparation]()
+commit [**053 Component & API Preparation](https://github.com/simotae14/web-components/commit/1f67020c2c8ef63aa014f84c9d8a51fb3533192a)
+
+** Submitting Forms
+
+commit [**054 Submitting Forms]()
