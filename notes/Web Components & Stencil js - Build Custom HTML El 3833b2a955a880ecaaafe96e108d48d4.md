@@ -445,7 +445,7 @@ commit [**058 Accessing the Host Element](https://github.com/simotae14/web-compo
 
 Instead of using the query parameters we are gonna use the References
 
-commit [**059 Using References]()
+commit [**059 Using References](https://github.com/simotae14/web-components/commit/4d9c151d99ef71552e905c134409d3a4a1ecfbe6)
 
 ** Two Way Binding & Input Validation
 
