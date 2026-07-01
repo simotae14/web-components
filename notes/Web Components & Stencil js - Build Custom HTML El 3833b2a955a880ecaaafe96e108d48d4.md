@@ -449,4 +449,8 @@ commit [**059 Using References](https://github.com/simotae14/web-components/comm
 
 ** Two Way Binding & Input Validation
 
-commit [**060 Two Way Binding & Input Validation]()
+commit [**060 Two Way Binding & Input Validation](https://github.com/simotae14/web-components/commit/7866a24e7c648bf76111cd9606c74c1382811dd8)
+
+** Error Handling
+
+commit [**061 Error Handling]()
