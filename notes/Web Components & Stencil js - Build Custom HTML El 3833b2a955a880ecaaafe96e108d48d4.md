@@ -435,6 +435,18 @@ commit [**056 HTTP Requests in Components](https://github.com/simotae14/web-comp
 
 commit [**057 Using the API Key](https://github.com/simotae14/web-components/commit/708a2ada50bfb1593225518aae41a10f57410a8b)
 
+https://github.com/simotae14/web-components/commit/dcc024da2910f4d91c9b6bea6e3fc81e6f2bb1db
+
 ** Accessing the Host Element
 
-commit [**058 Accessing the Host Element]()
+commit [**058 Accessing the Host Element](https://github.com/simotae14/web-components/commit/dcc024da2910f4d91c9b6bea6e3fc81e6f2bb1db)
+
+** Using References
+
+Instead of using the query parameters we are gonna use the References
+
+commit [**059 Using References]()
+
+** Two Way Binding & Input Validation
+
+commit [**060 Two Way Binding & Input Validation]()
